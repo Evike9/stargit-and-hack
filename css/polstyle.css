@@ -1,0 +1,60 @@
+body{
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0; 
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+}
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.backgcolorRed{
+    background-color: rgb(252, 58, 64);
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.backButton{
+    background-color: rgb(252, 58, 64);
+    color: white;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.hobbiesBox{
+    background-color: rgb(252, 58, 64);
+    color: white;
+    padding: 0px 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.hobbiesPosition{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.imgKlanTop{
+    width:40px;
+    height:40px;
+}
