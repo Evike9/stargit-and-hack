@@ -1,0 +1,185 @@
+
+/* General Setting */
+body {
+    /*background-color: #80673b;*/
+    background-color: #bb8a44;
+    margin: auto;
+    font-family: 'Dancing Script', cursive;
+    width: 90%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+a:hover {
+    color: #80673b;
+    font-size: 50px;
+    transition: all ease 500ms;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.container {
+    background-color: #f5e1b9;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* End General Setting */
+
+/* -------------------- Section 1 --------------------  */
+/* Portrait Part */
+
+.portrait {
+    width: 200px;
+    padding: 10px 20px;
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portrait:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+/* Here Pol Portrait causes some probleme; object-fit cover allows to center the photo in a box */
+#imgPol {
+    object-fit:cover;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    /*box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);*/
+    margin:60px 0; 
+    box-shadow: 0px 10px 36px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 10px 36px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 36px 0px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+}
+
+/* Box Around Portrait */
+.box-1 {
+    background-color: #f5e1b9;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    justify-content: space-between;
+    padding: 0 0 0 10px;
+}
+
+.box-2 {
+    display: flex;
+    align-content: center;
+    background-color: #80673b;
+    padding: 0 10px 0 0;
+    justify-content: center;
+}
+
+/* Box Around Portrait */
+
+/* End Portrait Part */
+
+
+
+/* C'est Pol & Eva & Melisa Part */
+
+/* Name and Arrow (Pol) */
+
+.aside1 {   
+    max-width: 500px;
+}
+
+#cestPol {
+    font-size: 30px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+
+    position:relative;
+    top: 160px;
+    margin:0;
+    padding:0;
+    right: 40px;
+    
+}
+.arrow1 {
+    width: 130px;
+    position:relative;
+    top: 150px; 
+    margin:0;
+    padding:0;
+}
+
+
+/* End Name and Arrow (Pol) */
+
+/* Name and Arrow (Eva Melisa) */
+
+.aside2 {
+    max-width: 450px;
+}
+
+#cestEva {
+    font-size: 30px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    padding:0;
+    position: relative;
+    left:20px;
+    top: 20px;
+}
+
+.arrow2 {
+    width: 70px;
+    padding:0;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+}
+
+#cestMelisa {
+    font-size: 30px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    padding:0;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+.arrow3 {
+    width: 100px;
+    padding: 0;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+/* Name and Arrow (Eva Melisa) */
+
+/* End C'est Pol & Eva & Melisa Part */
+
+/* -------------------- End Section 1 --------------------  */
+
+/* -------------------- Section 2 --------------------  */
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+
+}
+.list li {
+    width: 200px;
+}
+
+/* -------------------- End Section 1 --------------------  */
