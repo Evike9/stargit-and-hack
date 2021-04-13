@@ -43,12 +43,13 @@ h3{
 .hobbiesBox{
     background-color: rgb(252, 58, 64);
     color: white;
-    padding: 0px 20px;
+    padding: 0px 1em;
     text-align: center;
     width: 200px;
 }
 
 .hobbiesPosition{
+    position: inherit;
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
@@ -57,4 +58,11 @@ h3{
 .imgKlanTop{
     width:40px;
     height:40px;
+}
+
+button{
+    
+    position: relative;
+    width: 50px;
+    height: 40px;
 }
