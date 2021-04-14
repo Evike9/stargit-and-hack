@@ -24,10 +24,19 @@ h1, h2 {
     font-size: 3em;
 }
 
+h1 {
+   /* font-family: 'Staatliches', cursive;*/
+   font-family: 'Russo One', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase ;
+}
+
 .container {
     background-color: #f5e1b9;
-    padding: 20px;
+    padding: 10px;
     margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
 }
 
 /* End General Setting */
@@ -179,6 +188,7 @@ h1, h2 {
 
 }
 .list li {
+    font-family: 'Staatliches', cursive;
     width: 200px;
 }
 
