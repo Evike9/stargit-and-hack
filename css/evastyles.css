@@ -8,8 +8,9 @@ body {
 }
     
 span {
-    margin-top: 20px;
-    padding-top: 500px;
+    margin-bottom: 800px;
+    padding-bottom: 500px;
+    font-size: 200%;
 }
 
 nav { 
@@ -17,7 +18,8 @@ nav {
 }
 
 img {
-    width: 500px;
+    width: 700px;
+    height: 400px;
     padding-top: 5px;
 }
 
@@ -30,3 +32,28 @@ img {
 color:rgb(74, 52, 197);
 text-decoration: none;
 }
+
+h2 {
+    color:rgb(74, 52, 197);
+}
+
+table, 
+td {
+    border: 2px solid #333;
+    margin-top: 40px;
+    width: 700px;
+    text-align: center;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+thead, 
+th {
+    color:rgb(74, 52, 197);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: end; 
+}
+
+
